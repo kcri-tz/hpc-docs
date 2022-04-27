@@ -1,5 +1,5 @@
 ---
-title: "Docsy Blog"
+title: "KCRI HPC Blog"
 linkTitle: "Blog"
 menu:
   main:

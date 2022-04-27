@@ -1,12 +1,7 @@
 baseURL = "/"
 title = "KCRI HPC Docs"
-
-# Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-# Useful when translating.
-enableMissingTranslationPlaceholders = true
+description = "KCRI HPC Documentation"
+contentDir = "content"
 
 enableRobotsTXT = true
 
@@ -30,7 +25,6 @@ taxonomyCloudTitle = ["Tag Cloud", "Categories"]
 
 # set taxonomyPageHeader = [] to hide taxonomies on the page headers
 taxonomyPageHeader = ["tags", "categories"] 
-
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -65,15 +59,15 @@ anchor = "smart"
 
 # Language configuration
 
-[languages]
-[languages.en]
-title = "hpc.kcri.it"
-description = "KCRI HPC Documentation"
-languageName ="English"
-# Weight used for sorting.
-#weight = 1
-#time_format_default = "02.01.2006"
-#time_format_blog = "02.01.2006"
+#[languages]
+#[languages.en]
+#title = "hpc.kcri.it"
+#description = "KCRI HPC Documentation"
+#languageName ="English"
+## Weight used for sorting.
+##weight = 1
+##time_format_default = "02.01.2006"
+##time_format_blog = "02.01.2006"
 
 [markup]
   [markup.goldmark]
@@ -160,10 +154,10 @@ sidebar_search_disable = false
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+#yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+#no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 

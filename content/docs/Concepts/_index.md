@@ -3,7 +3,7 @@ title: "Concepts"
 linkTitle: "Concepts"
 weight: 4
 description: >
-  What does your user need to understand about your project in order to use it - or potentially contribute to it? 
+  What do you need to understand about the HPC in order to use it?
 ---
 
 {{% pageinfo %}}

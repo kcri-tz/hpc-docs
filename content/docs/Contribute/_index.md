@@ -1,9 +1,9 @@
 ---
-title: "Contribution Guidelines"
-linkTitle: "Contribution Guidelines"
+title: "How to Contribute"
+linkTitle: "Contribute"
 weight: 10
 description: >
-  How to contribute to the docs
+  How to contribute to the documentation
 ---
 
 {{% pageinfo %}}

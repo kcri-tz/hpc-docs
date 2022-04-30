@@ -1,5 +1,5 @@
 ---
-title: Community
+title: Users
 menu:
   main:
     weight: 40

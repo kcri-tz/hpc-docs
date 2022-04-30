@@ -1,7 +1,7 @@
 
 ---
-title: "News About KCRI HPC"
-linkTitle: "News"
+title: "KCRI HPC Blog"
+linkTitle: "Blog"
 weight: 20
 ---
 

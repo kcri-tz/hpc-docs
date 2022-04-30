@@ -1,6 +1,6 @@
 ---
-title: "KCRI HPC Blog"
-linkTitle: "Blog"
+title: "KCRI HPC News"
+linkTitle: "News"
 menu:
   main:
     weight: 30

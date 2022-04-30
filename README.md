@@ -1,6 +1,7 @@
-# KCRI HPC Docs
+# KCRI HPC Web Site
 
-This repository has the sources for the [KCRI HPC documentation](https://kcri.it/hpc-docs).
+This repository has the sources for the [KCRI HPC web site](https://kcri.it/hpc)
+and notably the HPC documentation.
 
 The KCRI HPC documentation was built with [Hugo](https://gohugo.io) and the [Docsy theme](https://www.docsy.dev),
 starting from the [Docsy example template](https://github.com/google/docsy-example).

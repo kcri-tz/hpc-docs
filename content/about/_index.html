@@ -1,5 +1,5 @@
 ---
-title: About KCRI HPC
+title: About the KCRI HPC
 linkTitle: About
 menu:
   main:
@@ -7,21 +7,54 @@ menu:
 
 ---
 
-{{< blocks/cover title="About KCRI HPC" image_anchor="bottom" height="min" >}}
-  <p class="lead mt-5">About the KCRI High-Performance Cluster: History, Hardware, Acknowledgements</p>
+{{< blocks/cover title="About the KCRI HPC" image_anchor="bottom" height="min" >}}
+  <p class="lead mt-5">The KCRI High-Performance Cluster: History, Hardware, People</p>
 {{< /blocks/cover >}}
-
-{{% blocks/lead %}}
-  The KCRI High-Performance Cluster isn't big but can do everything we need.
-{{% /blocks/lead %}}
 
 {{< blocks/section >}}
   <div class="col-12">
     <h1 class="text-center">History</h1>
+    <p>The KCRI HPC started out in 2014 as three Dell Precision 7400 laptop workstations: genie, crick
+    and watson.  Each sported a dual quad core i7-3740QM CPU, 32GB memory and a 1TB HDD.  Genie and
+    crick are still in service today as entry nodes to the cluster.  Watson regrettably processed its
+    final bits in 2019, but is still with us for its spares.</p>
+    <p>The laptop trio came with our first whole genome sequencing project, appropriately called "The
+    WGS Project".  The WGS Project was a collaboration &ndash; the first of many &ndash; with Frank
+    Aarestrup's <a href="https://www.food.dtu.dk/english/Research/Genomic-Epidemiology">genomic
+    epidemiology group at DTU</a> and brought us our first sequencer: the MiSeq.  This marked the
+    start of KCRI's Genomics &amp; Bioinformatics unit.</p>
+    <p>Together with <a href="http://www.genomicepidemiology.org">CGE</a>'s bioinformaticians,
+    Zwets ported the well-known <a href="http://www.genomicepidemiology.org/services">online CGE services</a>
+    to the laptops, solving the then still very prominent problem of doing large data transfers over
+    flimsy internet connections: move the computation to Africa.  We later integrated the services
+    into the "BAP", our standard pipeline for bacterial sequence analysis.  The BAP is open source
+    software, available at <a href="https://github.com/kcri-tz/kcri-cge-bap">https://github.com/kcri-tz/kcri-cge-bap</a>.</p>
+    <p>The "3-laptop HPC" performed many hundreds of analyses of hospital isolates, feeding into the
+    PhD dissertations of Tolbert Sonda and Happiness Kumburu, who now head KCRI's Genomics &amp;
+    Bioinformatics unit, with Marco van Zwetselaar (Zwets) as the bioinformatics wizard.</p>
+    <p>Our early set-up sufficed for most purposes, and we were grateful to have access to DTU's
+    <a href="https://www.computerome.dk">Computerome</a> for the heavy lifting.  However, as one of
+    very few centres in Africa where both sequencing and bioinformatics were happening on-site,
+    the unit had no trouble attracting new projects.  Storage was rapidly becoming an issue, especially
+    when we started doing Nanopore sequencing too.  And clearly by 2018 that 32GB memory ceiling was
+    seriously getting in the way.</p>
+    <p>This is when James Nokes's <a href="https://gemvi.kemri-wellcome.org">GeMVi project</a> brought
+    relief with a budget for our first "proper" bioinformatics server.  Zwets spent a ridiculous amount
+    of time on <a href="https://www.thinkmate.com">the ThinkMate site</a>, configuring a server that
+    would give the most bang for the buck: ample storage, lots of memory, and a powerful &ndash; while
+    still affordable &ndash; GPU.  The outcome was <b>turing</b>: 128 cpu, 3000 gpu, 2TB memory, 128TB
+    storage.  Yes, 2TB memory &ndash; that even beat the largest large-memory node in DTU Computerome
+    &#x1F60E;.  And all this within a £30,000 budget.</p>
+    <p>Cool story: when turing had finally arrived, the first thing Zwets did now that he had a large
+    memory machine, was analyse all bacterial sequences with GTDB-Tk.  And sure enough, spotted a new
+    species!</p>
+    <p>Text continues here.</p>
   </div>
-  <p>The KCRI HPC started out as three Dell Precision 7400 laptop workstations (genie, crick and watson),
-  each sporting a dual quad-core i7-3740QM CPU, 32GB memory and a 1TB HDD.</p>
 {{< /blocks/section >}}
+
+{{% blocks/lead %}}
+  Size doesn't matter
+{{% /blocks/lead %}}
 
 {{< blocks/section >}}
   <div class="col-12">

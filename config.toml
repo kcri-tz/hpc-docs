@@ -1,6 +1,6 @@
 baseURL = "/"
 title = "KCRI HPC"
-#description = "KCRI HPC Documentation"
+description = "KCRI HPC Documentation Web Site"
 contentDir = "content"
 
 enableRobotsTXT = true
@@ -84,7 +84,7 @@ anchor = "smart"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "KCRI HPC Team"
+copyright = "Marco van Zwetselaar <io@zwets.it> for KCRI"
 #privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
